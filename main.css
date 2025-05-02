@@ -1,0 +1,139 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 60px;
+    background: linear-gradient(135deg, #fcf6ba, #f7d794, #f5cd79);
+    background-size: 400% 400%;
+    animation: lightning-bg 10s ease infinite;
+  }
+  
+  /* Анимация молниеносного фона */
+  @keyframes lightning-bg {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  .converter-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #ffffffee;
+    padding: 40px 50px;
+    border-radius: 24px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.15);
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  /* Поисковик (input) — большой и красивый */
+  .converter-container input[type="text"] {
+    font-size: 24px;
+    padding: 20px 28px;
+    border-radius: 16px;
+    border: 2px solid #ccc;
+    width: 350px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .converter-container input[type="text"]:focus {
+    border-color: #f39c12;
+    outline: none;
+    box-shadow: 0 0 14px rgba(243, 156, 18, 0.5);
+  }
+  
+  /* Select */
+  .converter-container select {
+    font-size: 20px;
+    padding: 16px 24px;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  /* Кнопка */
+  .converter-container button {
+    font-size: 24px;
+    padding: 20px 40px;
+    background-color: #f39c12;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 20px rgba(243, 156, 18, 0.3);
+  }
+  
+  .converter-container button:hover {
+    background-color: #d68910;
+    transform: scale(1.08);
+    box-shadow: 0 8px 28px rgba(243, 156, 18, 0.5);
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 60px;
+    background: linear-gradient(-45deg, #ffe259, #ffa751, #ff6a00, #f5cd79);
+    background-size: 400% 400%;
+    animation: electric-light 12s ease infinite;
+  }
+  
+  @keyframes electric-light {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  
+
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #ffcc66, #ff6600);
+  }
+  
+  
+  .converter {
+    display: flex;
+    gap: 10px;
+    transform: translateY(-100px); 
+  }
+  .converter {
+    margin-top: -100px;
+  }
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #ffcc66, #ff6600);
+  }
+  
+  .wrapper {
+    transform: translateY(-100px); /* вот здесь поднимаем форму */
+  }
+  
+  .converter {
+    display: flex;
+    gap: 10px;
+  }
+  
+  
+  
+  
+
+  
+  
+  
+
+
+
